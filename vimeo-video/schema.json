@@ -1,0 +1,22 @@
+{
+  "video_id": {
+    "type": "string",
+    "default": "420762958"
+  },
+  "width": {
+    "type": "string",
+    "default": "1.6"
+  },
+  "height": {
+    "type": "string",
+    "default": "0.9"
+  },
+  "autoplay": {
+    "type": "boolean",
+    "default": false
+  },  
+  "loop": {
+    "type": "boolean",
+    "default": true
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "texture": {
+    "type": "file",
+    "default": "https://storage.googleapis.com/orbix360-qa-plugins/defaults/images/grid.png"
+  },
+  "color": {
+    "type": "string",
+    "default": "white"
+  },
+  "repeat": {
+    "type": "string",
+    "default": "5 5"
+  },
+  "defaultPosition": {
+    "type": "default",
+    "absolute": true,
+    "default": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "defaultRotation": {
+    "type": "default",
+    "default": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "defaultScale": {
+    "type": "default",
+    "default": {
+      "x": 20,
+      "y": 0.1,
+      "z": 20
+    }
+  },  
+  "additional_components": {
+    "type": "string",
+    "field": "textarea",
+    "default": ""
+  }
+}
+

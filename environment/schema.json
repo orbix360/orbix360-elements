@@ -1,0 +1,58 @@
+{
+  "preset": {
+    "type": "string",
+    "field": "select",
+    "options": [
+      "none",
+      "default",
+      "arches",
+      "checkerboard",
+      "contact",
+      "dream",
+      "egypt",
+      "forest", 
+      "goaland", 
+      "goldmine",
+      "japan",
+      "osiris",
+      "poison",
+      "starry",
+      "threetowers",
+      "tron", 
+      "volcano",
+      "yavapai"
+    ],
+    "default": "forest"
+  },
+  "ground": {
+    "type": "string",
+    "field": "select",
+    "options": [
+      "none",
+      "flat",
+      "hills",
+      "canyon",
+      "spikes",
+      "noise"
+    ],
+    "default": "flat"
+  },
+  "groundYScale": {
+    "type": "string",
+    "default": "10"
+  },
+  "playArea": {
+    "type": "string",
+    "default": "1"
+  },
+  "defaultPosition": {
+    "type": "default",
+    "absolute": true,
+    "default": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  }
+}
+

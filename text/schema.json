@@ -1,0 +1,74 @@
+{
+  "value": {
+    "type": "string",
+    "default": "Change Me"
+  },
+  "width": {
+    "type": "string",
+    "default": "4"
+  },
+  "height": {
+    "type": "string",
+    "default": "auto"
+  },
+  "align": {
+    "type": "string",
+    "field": "select",
+    "options": [
+      "left",
+      "center",
+      "right"
+    ],    
+    "default": "center"
+  },
+  "anchor": {
+    "type": "string",
+    "field": "select",
+    "options": [
+      "left",
+      "center",
+      "right",
+      "align"
+    ], 
+    "default": "center"
+  },
+  "baseline": {
+    "type": "string",
+    "field": "select",
+    "options": [
+      "top",
+      "center",
+      "bottom"
+    ], 
+    "default": "center"
+  },
+  "color": {
+    "type": "string",
+    "default": "white"
+  },
+  "transparent": {
+    "type": "boolean",
+    "default": true
+  },
+  "font": {
+    "type": "string",
+    "field": "select",
+    "options": [
+      "aileronsemibold",
+      "dejavu",
+      "exo2bold",
+      "exo2semibold",
+      "kelsonsans",
+      "monoid",
+      "mozillavr",
+      "roboto",
+      "sourcecodepro"
+    ],
+    "default": "roboto"
+  },
+  "additional_components": {
+    "type": "string",
+    "field": "textarea",
+    "default": ""
+  }
+}

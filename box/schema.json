@@ -1,0 +1,20 @@
+{
+  "src": {
+    "type": "file",
+    "default": "https://storage.googleapis.com/orbix360-qa-plugins/defaults/images/profile-icon.png"
+  },
+  "color": {
+    "type": "string",
+    "default": "white"
+  },
+  "repeat": {
+    "type": "string",
+    "default": "1 1"
+  },
+  "additional_components": {
+    "type": "string",
+    "field": "textarea",
+    "default": "animation=\"property: position; to: 0.0 0.3 0; dur: 5500; easing: linear; dir: alternate; loop: true\"  \nanimation__mouseenter=\"property: scale; to: 1.3 1.3 1.3; dur: 300; startEvents: mouseenter\" \nanimation__mouseleave=\"property: scale; to: 1 1 1; dur: 300; startEvents: mouseleave\" \nanimation__rotate=\"property: rotation; to: 0 360 0; loop: true; dur: 10000; startEvents: click\""
+  }
+}
+

@@ -1,0 +1,22 @@
+{
+  "url": {
+    "type": "string",
+    "default": "https://storage.googleapis.com/orbix360-qa-plugins/defaults/video/BigBuckTrimmed.mp4"
+  },
+  "width": {
+    "type": "string",
+    "default": "2.56"
+  },
+  "height": {
+    "type": "string",
+    "default": "1.44"
+  },
+  "autoplay": {
+    "type": "boolean",
+    "default": true
+  },
+  "loop": {
+    "type": "boolean",
+    "default": true
+  }
+}

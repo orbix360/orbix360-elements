@@ -1,0 +1,104 @@
+
+{
+  "preset": {
+    "type": "string",
+    "default": "snow"
+  },
+  "accelerationValue": {
+    "type": "string",
+    "default": "0 0 0"
+  },
+  "accelerationSpread": {
+    "type": "string",
+    "default": "0.2 0 0.2"
+  },
+  "blending": {
+    "type": "string",
+    "default": "2"
+  },
+  "color": {
+    "type": "string",
+    "default": "white"
+  },
+  "direction": {
+    "type": "string",
+    "default": "1"
+  },
+  "dragValue": {
+    "type": "string",
+    "default": "0"
+  },
+  "dragSpread": {
+    "type": "string",
+    "default": "0"
+  },
+  "dragRandomise": {
+    "type": "string",
+    "default": "false"
+  },
+  "duration": {
+    "type": "string",
+    "default": "999999"
+  },
+  "maxAge": {
+    "type": "string",
+    "default": "20"
+  },
+  "maxParticleCount": {
+    "type": "string",
+    "default": "250000"
+  },
+  "opacity": {
+    "type": "string",
+    "default": "1"
+  },
+  "particleCount": {
+    "type": "string",
+    "default": "5000"
+  },
+  "positionSpread": {
+    "type": "string",
+    "default": "100 100 100"
+  },
+  "randomise": {
+    "type": "string",
+    "default": "false"
+  },
+  "rotationAngle": {
+    "type": "string",
+    "default": "3.14"
+  },
+  "rotationAngleSpread": {
+    "type": "string",
+    "default": "0"
+  },
+  "rotationAxis": {
+    "type": "string",
+    "default": "x"
+  },
+  "size": {
+    "type": "string",
+    "default": "1"
+  },
+  "texture": {
+    "type": "file",
+    "default": ""
+  },
+  "type": {
+    "type": "string",
+    "default": "1"
+  },
+  "velocityValue": {
+    "type": "string",
+    "default": "0 8 0"
+  },
+  "velocitySpread": {
+    "type": "string",
+    "default": "2 0 2"
+  },
+  "defaultPosition": {
+    "type": "default",
+    "default": "0 2.25 -15"
+  }
+}
+

@@ -1,0 +1,7 @@
+<video id="video_{{instance_id}}" autoplay="{{autoplay}}" loop="{{loop}}" src="{{url}}"></video>
+<a-video src="#video_{{instance_id}}" 
+         width="{{width}}" 
+         height="{{height}}" 
+         onclick="if (document.getElementById('video_{{instance_id}}').playing) { document.getElementById('video_{{instance_id}}').pause(); } else { document.getElementById('video_{{instance_id}}').play(); }" 
+         class="screen cursorTarget"
+></a-video>

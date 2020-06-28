@@ -1,0 +1,8 @@
+<a-entity  id="vimeo_video_{{instance_id}}" vimeo="id: {{video_id}};  autoplay: {{autoplay}}; loop: {{loop}}">
+    <a-plane id="plane_vimeo_video_{{instance_id}}" color="#000000"  scale="{{width}} {{height}}" class="screen cursorTarget" 
+             onclick="const vimeoPluginInstance = document.querySelector('#vimeo_video_{{instance_id}}'); if (vimeoPluginInstance && vimeoPluginInstance.components) { const vimeoComponent = vimeoPluginInstance.components.vimeo; if (vimeoComponent) { const vimeoPlayer = vimeoComponent.player; if (vimeoPlayer.isPlaying()) { vimeoPlayer.pause(); } else { vimeoPlayer.play(); } } }"
+    ></a-plane>
+</a-entity>
+<a-box scale="0.3 0.3 0.3" color="red" position="0 1 0" class="screen cursorTarget"
+       onclick="const vimeoPluginInstance = document.querySelector('#vimeo_video_{{instance_id}}'); if (vimeoPluginInstance && vimeoPluginInstance.components) { const vimeoComponent = vimeoPluginInstance.components.vimeo; if (vimeoComponent) { const vimeoPlayer = vimeoComponent.player; vimeoPlayer.setTime(10); } }"
+></a-box>
