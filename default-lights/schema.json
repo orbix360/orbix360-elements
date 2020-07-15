@@ -1,0 +1,36 @@
+{
+  "ambientColor": {
+    "type": "string",
+    "default": "#BBB"
+  },
+  "directionalColor": {
+    "type": "string",
+    "default": "white"
+  },
+  "ambientIntensity": {
+    "type": "string",
+    "default": "1.0"
+  },
+  "directionalIntensity": {
+    "type": "string",
+    "default": "0.6"
+  },
+  "visible": {
+    "type": "boolean",
+    "default": true
+  },
+  "enabled": {
+    "type": "boolean",
+    "default": true
+  },
+  "defaultPosition": {
+    "type": "default",
+    "absolute": true,
+    "default": {
+      "x": -0.5,
+      "y": 1,
+      "z": 1
+    }
+  }
+}
+

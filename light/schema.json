@@ -1,0 +1,39 @@
+{
+  "type": {
+    "type": "string",
+    "field": "select",
+    "options": [
+      "ambient",
+      "directional",
+      "hemisphere",
+      "point",
+      "spot"
+    ],
+    "default": "point"
+  },
+  "color": {
+    "type": "string",
+    "default": "white"
+  },
+  "intensity": {
+    "type": "string",
+    "default": "1.0"
+  },
+  "visible": {
+    "type": "boolean",
+    "default": true
+  },
+  "enabled": {
+    "type": "boolean",
+    "default": true
+  },
+  "defaultPosition": {
+    "type": "default",
+    "default": {
+      "x": 0,
+      "y": 0,
+      "z": -1.5
+    }
+  }
+}
+
