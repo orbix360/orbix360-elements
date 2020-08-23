@@ -45,6 +45,28 @@
     "type": "string",
     "default": "1"
   },
+  "lighting": {
+    "type": "string",
+    "field": "select",
+    "options": [
+      "none",
+      "distant",
+      "point"
+    ],
+    "default": "distant"
+  },
+  "lightPosition": {
+    "type": "string",
+    "default": "1 1 1"
+  },
+  "fog": {
+    "type": "string",
+    "default": "0.5"
+  },
+  "visible": {
+    "type": "boolean",
+    "default": true
+  },
   "defaultPosition": {
     "type": "default",
     "absolute": true,

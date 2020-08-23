@@ -1,0 +1,15 @@
+{
+  "src": {
+    "type": "file",
+    "default": "https://storage.googleapis.com/orbix360-qa-plugins/defaults/gltf/oculus_logo.glb"
+  },
+  "visible": {
+    "type": "boolean",
+    "default": true
+  },
+  "additional_components": {
+    "type": "string",
+    "field": "textarea",
+    "default": ""
+  }
+}

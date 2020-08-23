@@ -18,5 +18,9 @@
   "loop": {
     "type": "boolean",
     "default": true
+  },
+  "visible": {
+    "type": "boolean",
+    "default": true
   }
 }

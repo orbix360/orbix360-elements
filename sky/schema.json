@@ -15,6 +15,46 @@
     "type": "string",
     "field": "textarea",
     "default": ""
+  },
+  "visible": {
+    "type": "boolean",
+    "default": true
+  },
+  "shader": {
+    "type": "string",
+    "field": "select",
+    "options": [
+      "flat",
+      "standard"
+    ],
+    "default": "flat"
+  },
+  "opacity": {
+    "type": "string",
+    "default": "1.0"
+  },
+  "side": {
+    "type": "string",
+    "field": "select",
+    "options": [
+      "front",
+      "back",
+      "double"
+    ],
+    "default": "double"
+  },
+  "repeat": {
+    "type": "string",
+    "default": "1 1"
+  },  
+  "defaultPosition": {
+    "type": "default",
+    "absolute": true,
+    "default": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
   }
 }
 

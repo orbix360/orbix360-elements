@@ -1,0 +1,30 @@
+
+<a-entity  id="vimeo_video_{{instance_id}}" 
+           vimeo="id: {{video_id}};  autoplay: {{autoplay}}; loop: {{loop}}; 
+           leftEye:#leftEye_{{instance_id}}; rightEye:#rightEye_{{instance_id}};">
+    <a-entity id="rightEye_{{instance_id}}"></a-entity>
+    <a-entity id="leftEye_{{instance_id}}"></a-entity>
+</a-entity>
+<a-circle  id="play_pause_{{instance_id}}"
+       position="0 -0.4 0" src="/orbix/images/nadir_play_pause.png"
+           radius="0.2"
+             rotation="90 0 0"
+       class="screen cursorTarget" 
+           material="side: double;"
+       onclick="const vimeoPluginInstance = document.querySelector('#vimeo_video_{{instance_id}}'); 
+       const playPause = document.querySelector('#play_pause_{{instance_id}}');
+       if (vimeoPluginInstance && vimeoPluginInstance.components) { 
+         const vimeoComponent = vimeoPluginInstance.components.vimeo; 
+         if (vimeoComponent) { const vimeoPlayer = vimeoComponent.player; 
+             if (vimeoPlayer.isPlaying()) { 
+               vimeoPlayer.pause();  
+               playPause.setAttribute('src', '/orbix/images/nadir_play.png');
+             } 
+             else { 
+               vimeoPlayer.play(); 
+               playPause.setAttribute('src', '/orbix/images/nadir_pause.png');
+             } 
+         } 
+       }"
+           onload="console.log(`******** in 360 video onload`);"
+></a-circle>

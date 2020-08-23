@@ -1,32 +1,19 @@
 {
   "src": {
     "type": "file",
-    "default": "https://storage.googleapis.com/orbix360-qa-plugins/defaults/images/change-me.png"
+    "default": "https://storage.googleapis.com/orbix360-qa-plugins/defaults/images/profile-icon.png"
   },
-  "color": {
+  "width": {
     "type": "string",
-    "default": "white"
+    "default": "1"
   },
-  "visible": {
-    "type": "boolean",
-    "default": true
-  },
-  "opacity": {
+  "height": {
     "type": "string",
-    "default": "1.0"
+    "default": "1"
   },
   "repeat": {
     "type": "string",
     "default": "1 1"
-  },
-  "shader": {
-    "type": "string",
-    "field": "select",
-    "options": [
-      "flat",
-      "standard"
-    ],
-    "default": "standard"
   },
   "additional_components": {
     "type": "string",

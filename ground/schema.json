@@ -7,6 +7,23 @@
     "type": "string",
     "default": "white"
   },
+  "visible": {
+    "type": "boolean",
+    "default": true
+  },
+  "shader": {
+    "type": "string",
+    "field": "select",
+    "options": [
+      "flat",
+      "standard"
+    ],
+    "default": "standard"
+  },
+  "opacity": {
+    "type": "string",
+    "default": "1.0"
+  },
   "repeat": {
     "type": "string",
     "default": "5 5"

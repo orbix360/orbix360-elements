@@ -1,0 +1,7 @@
+<a-entity  id="vimeo_video_{{instance_id}}" vimeo="id: {{video_id}};  autoplay: false; loop: {{loop}}">
+    <a-entity id="sky_vimeo_video_{{instance_id}}" 
+              material="color: #000000; side: double; repeat: 2 2;"  
+              geometry="primitive: sphere; radius: {{radius}}" class="screen cursorTarget" 
+             onclick="const vimeoPluginInstance = document.querySelector('#vimeo_video_{{instance_id}}'); if (vimeoPluginInstance && vimeoPluginInstance.components) { const vimeoComponent = vimeoPluginInstance.components.vimeo; if (vimeoComponent) { const vimeoPlayer = vimeoComponent.player; if (vimeoPlayer.isPlaying()) { vimeoPlayer.pause(); } else { vimeoPlayer.play(); } } }"
+    ></a-entity>
+</a-entity>

@@ -1,3 +1,7 @@
-<a-sphere radius="0.05" visible="{{visible}}" material="shader: flat; color: {{color}};"></a-sphere>
-<a-light type="{{type}}" color="{{color}}" intensity="{{intensity}}" visible="{{enabled}}"></a-light>
+<a-entity visible="{{visible}}"
+        {{additional_components}}
+>
+<a-sphere radius="0.05" visible="{{showGizmo}}" material="shader: flat; color: {{color}};"></a-sphere>
+<a-light type="{{type}}" color="{{color}}" intensity="{{intensity}}"></a-light>
+</a-entity>
 

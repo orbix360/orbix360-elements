@@ -1,0 +1,14 @@
+{
+  "video_id": {
+    "type": "string",
+    "default": "420762958"
+  },
+  "radius": {
+    "type": "string",
+    "default": "200"
+  },
+  "loop": {
+    "type": "boolean",
+    "default": true
+  }
+}

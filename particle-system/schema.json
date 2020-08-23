@@ -102,6 +102,10 @@
     "type": "string",
     "default": "2 0 2"
   },
+  "visible": {
+    "type": "boolean",
+    "default": true
+  },
   "defaultPosition": {
     "type": "default",
     "default": {

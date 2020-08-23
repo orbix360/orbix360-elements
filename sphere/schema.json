@@ -1,7 +1,7 @@
 {
   "src": {
     "type": "file",
-    "default": "https://storage.googleapis.com/orbix360-qa-plugins/defaults/images/profile-icon.png"
+    "default": "https://storage.googleapis.com/orbix360-qa-plugins/defaults/images/change-me.png"
   },
   "radius": {
     "type": "string",
@@ -10,6 +10,23 @@
   "color": {
     "type": "string",
     "default": "white"
+  },
+  "visible": {
+    "type": "boolean",
+    "default": true
+  },
+  "shader": {
+    "type": "string",
+    "field": "select",
+    "options": [
+      "flat",
+      "standard"
+    ],
+    "default": "standard"
+  },
+  "opacity": {
+    "type": "string",
+    "default": "1.0"
   },
   "repeat": {
     "type": "string",

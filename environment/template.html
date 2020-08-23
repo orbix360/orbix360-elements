@@ -1,4 +1,14 @@
-<a-entity environment="preset: {{preset}}; ground: {{ground}}; groundYScale: {{groundYScale}}; playArea: {{playArea}}"></a-entity>
-<a-box class="screen cursorTarget teleportTarget" src="/orbix/images/1x1.png" 
-       scale="1000 0.1 1000"  position="0 -0.1 0"
-></a-box>
+<a-entity visible="{{visible}}">
+    <a-entity environment="preset: {{preset}}; 
+    ground: {{ground}}; 
+    groundYScale: {{groundYScale}}; 
+    playArea: {{playArea}}; 
+    lighting: {{lighting}};
+    lightPosition: {{lightPosition}};
+    fog: {{fog}}
+    "
+    ></a-entity>
+    <a-box class="screen cursorTarget teleportTarget" src="/orbix/images/1x1.png" 
+           scale="1000 0.1 1000"  position="0 -0.1 0"
+    ></a-box>
+</a-entity>
